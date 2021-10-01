@@ -1,0 +1,153 @@
+{"intents": [
+    {"tag": "Salam",
+    "patterns": ["Hey, Hello, Halo, Hallo, Permisi, Mau bertanya, Hai, Salam"],
+    "responses": ["Halo, ada yang bisa dibantu?"],
+    "context": [""]
+    }, 
+    {"tag": "Salam2",
+    "patterns": ["Assalamualaikum, Assalamu’alaikum, Assalamu’alaikum Warahmatullahi Wabarakatuh, Assalamualaikum Wr Wb, Assalamu’alaikum Wr Wb, Assalammualaikum, Askum"],
+    "responses": ["Waalaikumussalam"],
+    "context": [""]
+    },
+    {"tag": "Salam3",
+    "patterns": ["Selamat pagi, Pagi, Met pagi, Morning, Good morning"],
+    "responses": ["Selamat pagi"],
+    "context": [""]
+    },       
+    {"tag": "Salam4",
+    "patterns": ["Selamat siang, Siang, Good afternoon, Met siang"],
+    "responses": ["Selamat siang"],
+    "context": [""]
+    },
+    {"tag": "Salam5",
+    "patterns": ["Selamat sore, Sore, Met sore, Good evening"],
+    "responses": ["Selamat sore"],
+    "context": [""]
+    }, 
+    {"tag": "Salam6",
+    "patterns": ["Selamat malam, Malam, Malem, Met malam, Good night"],
+    "responses": ["Selamat malam"],
+    "context": [""]
+    },
+    {"tag": "Perpisahan",
+    "patterns": ["Bye, Selamat tinggal, Sampai jumpa, Dada, Senang bisa berjumpa, Senang bisa bertemu, See u, See you "],
+    "responses": ["Bye, Terima kasih sudah berkunjung"],
+    "context": [""]
+    },
+    {"tag": "Terimakasih",
+    "patterns": ["Terimakasih, Thanks, Makasih, Trims, Okay, Ok, Maaci, Terima kasih, Okay makasih"],
+    "responses": ["Senang bisa membantu"],
+    "context": [""]
+    }, 
+    {"tag": "Jam",
+    "patterns": ["Kapan pelayanan buka? Berapa lama pelayanan buka? Sampai kapan pelayanan berlangsung?, Mulai pelayanan dari jam berapa?, Apa hari Sabtu buka pelayanan? Hari Minggu buka nggak?, Terakhir pelayanan jam berapa?, Bukanya kapan?  "],
+    "responses": ["Kita buka pelayanan setiap hari Senin-Jumat, dari jam 08.00 -  15.30 WIB"],
+    "context": [""]
+    }, 
+    {"tag": "Waktu",
+    "patterns": ["Kapan kampus buka?, Kapan dimulai kuliah offline?, Sampai kapan kita kuliah online?, Kapan kuliah daring selesai?, Kapan dimulai tatap muka?, Kapan kulian offline lagi?"],
+    "responses": ["Maaf untuk saat ini masih dilakukan perkulian secara online dan masih menunggu arahan dan keputusan dari dari Kementerian Pendidikan dan Kebudayaan (Kemendikbud), Kementerian Agama (Kemenag), dan Kementerian Kesehatan (Kemenkes). Sementara ini kampus sendiri sedang melakukan persiapan dari segi kesehatan dosen, karyawan dan mahasiswa. Mohon untuk menunggu kebijakan selanjutnya."],
+    "context": [""]
+    },
+    {"tag": "Fakultas",
+    "patterns": ["Kapan kampus buka?, Kapan dimulai kuliah offline?, Sampai kapan kita kuliah online?, Kapan kuliah daring selesai?, Kapan dimulai tatap muka?, Kapan kulian offline lagi?"],
+    "responses": ["Maaf untuk saat ini gedung fakultas dan lab komputer belum bisa dibuka untuk umum, masih menunggu kebijakan dari pihak kampus."],
+    "context": [""]
+    },  
+    {"tag": "Informatika",
+    "patterns": ["Dimana bisa mengakses berita tentang jurusan teknik informatika UIN Malang?, Apa nama web TI UIN Malang?, Dimana bisa lihat berita TI UIN Malang?, Web TI UIN Malang?, Apa web TI?"],
+    "responses": ["Untuk mengetahui informasi tentang jurusan Teknik Informatika UIN Malang lebih lanjut dapat mengakses halaman web http://informatika.uin-malang.ac.id/"],
+    "context": [""]
+    },
+    {"tag": "Lab",
+    "patterns": ["Lab apa aja yang ada di jurusan TI UIN Malang?, Tersedia lab apa saja di jurusan TI UIN Malang?, List lab computer?, Laboratorium komputernya apa aja?"],
+    "responses": ["Untuk informasi lebih lanjut tentang laboratorium TI UIN Malang dapat mengakses halaman web berikut ini: http://informatika.uin-malang.ac.id/laboratories-2/"],
+    "context": [""]
+    }, 
+    {"tag": "Lab1",
+    "patterns": ["Laboratoriun apa saja yang buka?, Lab apa yang bisa digunakan?, Lab buka?, Apa lab digital dan robotika buka?, Apa lab multimedia buka?, Lab mulmed buka?, Apa lab pemrograman buka?, Apa lab ?, Apa lab mobile buka, Apa lab database buka?, Apa lab Computer Network buka?, Apa lab Software Engineering buka?, Apa lab High Performance Computing buka?"],
+    "responses": ["Maaf semua fasilitas laboratorium masih belum dapat digunakan dan dibuka secara umum dikarenakan kebijakan dari kampus selama perkuliahan online berlangsung"],
+    "context": [""]
+    }, 
+    {"tag": "Dosen",
+    "patterns": ["Informasi dosen TI, informasi staf  laboran, Dimana saya dapat menemukan informasi tentang dosen TI, Siapa saja staf laboran?, Saya butuh informasi dosen dan staf, Beri saya informasi tentang dosen dan staf, Siapa ketua jurusan Teknik Informatika, Ketua jurusan TI siapa?, Siapa sekretaris jurusan Teknik Informatika, Sekretaris jurusan TI siapa?, Siapa yang melayani adminstrasi di jurusan TI?"],
+    "responses": ["Untuk informasi tentang dosen dan staf TI UIN Malang dapat mengakses halaman web berikut ini: http://informatika.uin-malang.ac.id/lecturer-staff/"],
+    "context": [""]
+    }, 
+    {"tag": "Kalender",
+    "patterns": ["Dimana dapat melihat kalender akademik jurusan?, Kalender akademik, Kalender akademik Jurusan TI, Beri tahu saya dimana bisa melihat kalender akademik, Saya membutuhkan kalender akademik "],
+    "responses": ["Kalender akademik dapat diakses melalui laman http://informatika.uin-malang.ac.id/academics-calendar/"],
+    "context": [""]
+    }, 
+    {"tag": "Pkl",
+    "patterns": ["Bagaimana alur PKL, pendaftaran PKL, Cara daftar PKL, Syarat PKL apa saja?, Bagaimana proses PKL?, Cara PKL, Dimana form pendaftaran PKL, Dimana registrasi untuk PKL, Registrasi PKL, Saya butuh form pendaftaran PKL, Form pendaftaran PKL, Bagaimana pelaporan PKL dilaksanakan, Cara pelaporan PKL, Bagaimana teknis pelaksanaan PKL, Alur PKL"],
+    "responses": ["Teknis pelaksanaan PKLI / Praktek Kerja Lapangan Integratif dapat diakses melaui  laman http://informatika.uin-malang.ac.id/internshippkli/"],
+    "context": [""]
+    },
+    {"tag": "Kurikulum",
+    "patterns": ["Apa saja kurikulum jurusan TI UIN Malang, Daftar kurikulum jurusan Teknik Informatika UIN Malang, List kurikulum yang harus ditempuh, Buku pedoman akademik jurusan TI, Berapa SKS yang harus ditempuh pada jurusan TI, Dimana saya bisa mendapatkan informasi tentang kurikulum teknik informatika?"],
+    "responses": ["Kurikulum jurusan Teknik Informatika UIN Maulana Malik Ibrahim Malang dapat diakses melalui laman http://informatika.uin-malang.ac.id/curriculum/"],
+    "context": [""]
+    },
+    {"tag": "Praktikum",
+    "patterns": ["Praktikum apa saja yang harus ditempuh?, Apa saja praktikum semester 1 yang harus ditempuh?, Apa saja praktikum semester 2 yang harus ditempuh?, Apa saja praktikum semester 3 yang harus ditempuh?, Apa saja praktikum semester 4 yang harus ditempuh?, Apa saja praktikum semester 5 yang harus ditempuh?, Apa saja praktikum semester 6 yang harus ditempuh?, Saya membutuhkan modul praktikum, Saya butuh pedoman praktikum, Dimana saya dapat melihat pedoman praktikum, Dimana saya bisa mendapatkan kartu kendali praktikum, Saya butuh kartu kendali praktikum"],
+    "responses": ["Informasi tentang praktikum jurusan Teknik Informatika UIN MAulana Malik Ibrahim Malang dapat diakses melalui laman ttp://informatika.uin-malang.ac.id/practicum/"],
+    "context": [""]
+    },
+    {"tag": "Skripsi",
+    "patterns": ["Bagaimana alur skripsi?, Apa saja prosedur program skripsi?, Apa saja syarat daftar skripsi?, Cara daftar skripsi, Apa syarat agar bisa mengajukan skripsi?, Apa saja syarat mengajukan skripsi?, Bagaimana panduan pelaksanaan SEMHAS?, Bagaimana panduan pelaksanaan sidang skripsi?, Bagaimana panduan pelaksanaan skripsi online?,"],
+    "responses": ["Informasi dan prosedur untuk memprogram Skripsi dapat dapat diakses melalui laman http://informatika.uin-malang.ac.id/thesisskripsi/"],
+    "context": [""]
+    },
+    {"tag": "Daftar",
+    "patterns": ["Mendaftar sempro dimana?, Mendaftar kompre dimana?, Mendaftar semhas dimana?, Mendaftar sidang dimana?,Mendaftar yudisium dimana?, Link daftar sempro, link daftar kompre, link daftar semhas, Link daftar sidang, Link daftar yudisium  "],
+    "responses": ["Untuk semua mahasiswa yang ingin mendaftar SEMPRO, KOMPRE, SEMHAS, sidang atau yudisium dapat mengurus disini:http://informatika.uin-malang.ac.id/thesisskripsi/ Cek bagian paling bawah, formnya kalian isi (tapi masing-masing dosen pembimbingitu berbeda-beda, ada juga yang tidak perlu untuk mengisi form tetapi sudah didaftarkan oleh dospem)"],
+    "context": [""]
+    },  
+    {"tag": "Administrasi",
+    "patterns": ["Saya butuh berkas administrasi TI, Dimana saya bisa mendapatkan berkas tentang administrasi TI, Dimana saya bisa mengakses form untuk kelengkapan yudisium?, Dimana saya bisa melihat buku pedoman?, Link form kelengkapan yudisium"],
+    "responses": ["Klo kalian membutuhkan segala berkas tentang administrasi TI, buku pedoman, form untuk kelengkapan yudisium dan lain-lain da disini:http://informatika.uin-malang.ac.id/download/"],
+    "context": [""]
+    }, 
+    {"tag": "Pengajuan",
+    "patterns": ["Dimana cara mengajukan surat aktif masih studi?, Gimana alur pengajuan masih studi?, Bagaimana pengajuan surat aktif masih studi?, Dimana saya bisa mendapatkan surat aktif masih studi?, Bagamana mengurus pengajuan masih studi?, Dimana saya bisa mengurus pengajuan masih studi?"],
+    "responses": ["pabila kalian membutuhkan surat aktif masih studi, sekarang dapat diurus melalui  akun Siakad masing-masing. Pasti ada di menu bagian kiri akun Siakad kalian namanya Pengajuan Masih Studi"],
+    "context": [""]
+    },
+    {"tag": "Surat",
+    "patterns": ["Dimana saya bisa mengurus surat izin menggunakan lab?, Dimana saya bisa mengurus surat izin penelitian?, Dimana saya bisa mengurus surat izin ambil data?, Dimana saya bisa mengurus surat izin PKL?, Saya butuh surat izin menggunakan lab, Saya butuh surat izin penelitian, Saya butuh surat izin ambil data, Saya butuh surat izin PKL"],
+    "responses": ["Mengurus surat-surat seperti ingin menggunakan lab, surat izin penelitian, surat izin ambil data, PKL dan segala surat yang melibatkan fakultas itu ada disini:https://saintek.uin-malang.ac.id/online/"],
+    "context": [""]
+    }, 
+    {"tag": "Ukt",
+    "patterns": ["Dimana bisa mengakses informasi dan layanan UKT?, Saya membutuhkan informasi UKT, Dimana saya bisa mengurus UKT, Bagaimana mengurus UKT?, Beri saya informasi tentang pembayaran UKT, Dimana mengurus UKT?, Dimana saya bisa mengurus pengembalian UKT?, Mengurus pengembalian UKT dimana?, Bagaimana mengurus pengembalian UKT?, Saya membutuhkan informasi tentang pengembalian uang UKT, Dimana saya bisa  mengajukan penyesuaian UKT semester aktif?, Dimana saya bisa mengurus keringanan UKT, Bagaimana cara mengurus keringanan UKT, Dimana saya bisa mendapatkan layanan administrasi keuangan mahasiswa?"],
+    "responses": ["Layanan Administrasi keuangan mahasiswa UIN Maulana Malik Ibrahim Malang dapat diakses melalui laman https://studentfinance.uin-malang.ac.id "],
+    "context": [""]
+    },
+    {"tag": "Transkip",
+    "patterns": ["Saya membutuhkan cetak transkrip nilai sementara, Dimana saya bisa mendapatkan transkrip nilai sementara?, Bagaimana saya mengurus cetak transkrip nilai sementara?, Gimana mengurus cetak transkrip nilai sementara?, Kepada siapa kita mengurus cetak transkrip nilai sementara? "],
+    "responses": ["Untuk yang membutuhkan cetak transkrip nilai sementara diminta menghubungi Adm. Akademik Fakultas Bapak Galuh Akbar Jagini =  wa.me/6281228368248 arap dihubungi di jam kerja ya semuanya. Terima kasih!"],
+    "context": [""]
+    },
+    {"tag": "Kompre",
+    "patterns": ["Dimana daftar kompre?, Saya ingin daftar kompre?, Saya bisa daftar kompre dimana?, Daftar kompre "],
+    "responses": ["Pndaftaran kompre dapat dilakukan melalui laman  http://informatika.uin-malang.ac.id/registration-for-comprehensive xamination"],
+    "context": [""]
+    },
+    {"tag": "Ukt2",
+    "patterns": ["Bagaimana jika telat membayar UKT?, Saya terlambat membayar uang UKT?, Dimana saya bisa mengurus keterlambatan membayar UKT?, Apa yang harus saya lakukan jika terlambat membayar UKT?"],
+    "responses": ["Untuk mahasiswa yang terlambat membayar UKT dan berencana untuk ingin  membayar dalam hari-hari ini, harap membuat surat permohonan ditujukan ke Bagian Akademik, agar terhubung dengan proses pemrograman, dan bagian keuangan bisa follow up membukakan sistem pembayaran. Scan surat permohonan bisa dikirim ke email: studentfinance@uin-malang.ac.id"],
+    "context": [""]
+    } ,  
+    {"tag": "Ukt3",
+    "patterns": ["pa saja lampiran untuk mengajukan keringanan UKT?, Lampiran apa saja yang dibutuhkan untuk mengajukan keringanan UKT?, Lampiran pengajuan keringanan UKT apa saja?, Saya butuh list lampiran keringanan UKT?, Untuk mengajukan keringanan UKT apa saja lampiran yang hsrus diunggah?"],
+    "responses": ["Lampiran yang Diunggah: a.Foto KTM (muka tampak jelas) b.Foto KTP Ayah/Wali c,Foto KTP Ibu/Wali d.Foto Kartu Keluarga d.Struk Pembayaran Listrik (bulan terakhir) e.Struk Pembayaran PBB f.Daftar Gaji/Ket. Penghasilan Ayah (disahkan) g.Daftar Gaji/Ket. h.Penghasilan Ibu (disahkan) i.Berkas Dukung Lain"],
+    "context": [""]
+    },
+    {"tag": "Ukt4",
+    "patterns": ["Apa saja petunjuk teknis keringanan UKT 15%?, Apa saja syarat dan ketentuan untuk mengajukan potongan UKT 15%?, Bagaimana prosedure pengajuan potongan UKT 15%, Bagaimana saya bisa mendapatkan potongan UKT 15%, Siapa yang bisa mendapatkan potongan UKT 15%?, Dimana mengurus pengajuan potongan UKT 15%?"],
+    "responses": ["Syarat dan Ketentuan: a.Mahasiswa yang dapat mengajukan permohonan keringanan UKT adalah mahasiswa yang tidak mampu secara ekonomi akibat terdampak pandemic Covid-19 b.Mahasiswa yang telah menyelesaikan semua Mata Kuliah dengan jumlah minimal SKS yang sudah ditempuh Prosedure Pengajuan: Mahasiswa mengajukan permohonan kepada fakultas dengan mengisi google form di laman https://singka.link/mXTS dengan melampirkan:1.Surat permohonan pengajuan keringanan UKT 2.Surat keterangan pembimbingan skripsi/tugas akhir 3.Transkrip sementara"],
+    "context": [""]
+    }    
+   ]
+}
